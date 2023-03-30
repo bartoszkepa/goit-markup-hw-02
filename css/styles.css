@@ -39,14 +39,12 @@ h1 {
 }
 h3 {
   font-family: var(--font-family-primary);
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
 h2 {
   font-family: var(--font-family-primary);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -54,7 +52,6 @@ h2 {
 }
 .menu-link {
   font-family: var(--font-family-secondary);
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -65,17 +62,13 @@ h2 {
   background: var(--background-color-main-first-footer);
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--color-text-hover);
-}
+
 .social-links,
 .color {
   color: var(--color-text-link);
 }
 .link {
   font-family: var(--font-family-primary);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -85,10 +78,6 @@ h2 {
 .link:hover,
 .link:focus,
 .color:hover,
-.studio:hover,
-.studio-footer:hover,
-.studio:focus,
-.studio-footer:focus,
 .color:focus {
   color: var(--color-text-hover);
 }
@@ -116,14 +105,12 @@ h2 {
   font-size: 16px;
   line-height: 1.87;
   font-family: var(--font-family-primary);
-  font-style: normal;
   font-weight: 700;
   background: var(--color-text-hover);
   color: var(--color-text-secendary);
 }
 .button-secendary {
   font-family: var(--font-family-primary);
-  font-style: normal;
   font-weight: 500;
   border-radius: 4px;
   font-size: 16px;
@@ -142,10 +129,7 @@ p {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.section-background {
-  background: var(--background-color-porfolio-header);
-}
-.section-background-2 {
+.section-background{
   background: var(--background-color-heder-button);
 }
 .header-background {
